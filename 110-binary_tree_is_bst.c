@@ -28,5 +28,5 @@ int binary_tree_is_bst(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
-	return is_bst(tree, NULL, NULL);
+	return (is_bst(tree, NULL, NULL));
 }
